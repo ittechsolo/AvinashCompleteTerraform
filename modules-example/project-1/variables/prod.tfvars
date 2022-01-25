@@ -1,0 +1,5 @@
+p1_ami_id="ami-066333d9c572b0680"
+p1_instance_type="t2.micro"
+p1_ec2_name="prod-ec2"
+region="us-east-1"
+profile="isaac"

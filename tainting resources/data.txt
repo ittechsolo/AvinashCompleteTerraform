@@ -1,0 +1,12 @@
+Terraform Taint:
+
+You have created a new resource via terraform
+
+users have made a lot of changes (both indra and inside the server)
+
+two ways to deal with this: Import the changes to terraform /delete & recreate the resource
+
+terraform taint command manually marks a terraform managed resource as tainted , forcing it to be destroyed and recretad on next apply
+
+terraform taint aws_instance.ec2
+

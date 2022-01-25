@@ -1,0 +1,16 @@
+TF_LOG --> TRACE, DEBUG, INFO, WARN or ERROR
+
+export TF_LOG=TRACE
+
+export TF_LOG_PATH=crash.log
+
+#############
+
+terraform fmt
+
+############
+
+terraform validate
+
+############
+
